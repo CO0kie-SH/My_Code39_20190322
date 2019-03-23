@@ -84,6 +84,7 @@ namespace My_Code39_20190322
             string txt = $"*{textBox.Text.Trim()}*";
             count = 0;
             //gd.Children.Count;
+            gd.Children.Clear();
             foreach (var s in txt)
             {
                 Console.WriteLine("{0} {1}", s, codeMap[s]);
