@@ -98,6 +98,7 @@ namespace My_Code39_20190322
             //gd.Children.Clear();
             //gd.ColumnDefinitions.Clear();
 
+
             save(@"C:\Users\wuye\Desktop\1.png");
         }
 
